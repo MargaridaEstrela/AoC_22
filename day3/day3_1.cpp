@@ -36,10 +36,10 @@ int main() {
 
         char item;
 
-        for (int i = 0; i < mid; i++) {
-            for (int j = 0; j < mid; j++) {
-               if (first_comp[i] ==  second_comp[j]) {
-                    item = first_comp[i];
+        for (char c1 : first_comp) {
+            for (char c2 : second_comp) {
+               if (c1 == c2) {
+                    item = c1;
                     continue;
                 }
             }
