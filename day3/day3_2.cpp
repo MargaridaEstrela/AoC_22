@@ -42,8 +42,6 @@ int main() {
                 break;
             }
         }
-
-        // priorities_sum += get_priority(item);
     }
 
     file.close();
