@@ -16,8 +16,6 @@ int get_priority(char item) {
     } else {
         return item - a + 1;
     }
-
-    return 0;
 }
 
 
